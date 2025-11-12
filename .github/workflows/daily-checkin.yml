@@ -4,6 +4,7 @@ on:
   # 定时触发
   schedule:
     - cron: '15 9 * * *'
+    - cron: '30 16 * * *'
   
   # 允许手动触发
   workflow_dispatch:
